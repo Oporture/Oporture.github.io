@@ -1,1 +1,133 @@
-<html><body><p>time</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oporture</title>
+    <meta name="description" content="Building towards a better future" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #2f2129;
+            color: #e86b88;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+            padding: 3.5rem 4rem;
+        }
+
+        h1 {
+            margin-bottom: 0.2rem;
+        }
+
+        h1 svg {
+            display: block;
+            width: 100%;
+            max-width: clamp(380px, 50vw, 550px);
+            height: auto;
+        }
+
+        .tagline {
+            font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            color: #e86b88;
+            opacity: 0.96;
+        }
+
+        footer {
+            padding: 1.5rem 4rem 2rem;
+        }
+
+        .footer-name {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #a97d86;
+            margin-bottom: 0.4rem;
+        }
+
+        .footer-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+            font-size: 0.875rem;
+            color: #a97d86;
+        }
+
+        .footer-meta img {
+            width: 20px;
+            height: auto;
+            display: block;
+        }
+
+        .footer-meta .separator {
+            opacity: 0.6;
+        }
+
+        .footer-meta a {
+            color: #a97d86;
+            font-weight: 700;
+            text-decoration: none;
+            transition: color 0.2s ease, opacity 0.2s ease;
+        }
+
+        .footer-meta a:hover {
+            color: #e86b88;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>
+            <svg viewBox="0 0 21 5.8" version="1.1" overflow="visible" style="overflow: visible;"
+                xmlns="http://www.w3.org/2000/svg">
+                <g transform="translate(-108.97, -232.55)">
+                    <text xml:space="preserve" font-family="Inter, sans-serif" font-weight="600" font-size="6.108"
+                        letter-spacing="-0.437" fill="#e86b88" text-anchor="middle" x="129.757" y="237.067"
+                        style="font-optical-sizing: none;">
+                        <tspan x="131.539">Oporture</tspan>
+                    </text>
+                    <rect fill="#2f2129" width="1.267" height="0.33" x="120.368" y="233.397" />
+                    <ellipse fill="#2f2129" cx="121.259" cy="234.453" rx="0.401" ry="0.124" />
+                </g>
+            </svg>
+        </h1>
+        <p class="tagline">Building towards a better future with safer AI</p>
+    </main>
+
+    <footer>
+        <p class="footer-name">Oporture</p>
+        <div class="footer-meta">
+            <img src="assets/ph.png" alt="Philippine flag" />
+            <span>Located in the Philippines</span>
+            <span class="separator">•</span>
+            <a href="https://github.com/Oporture" target="_blank" rel="noopener noreferrer">See our GitHub</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
